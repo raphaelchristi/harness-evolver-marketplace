@@ -1,0 +1,18 @@
+{
+  "name": "harness-evolver-marketplace",
+  "description": "Plugin marketplace for Harness Evolver — LangSmith-native agent optimization",
+  "owner": {
+    "name": "Raphael Valdetaro"
+  },
+  "plugins": [
+    {
+      "name": "harness-evolver",
+      "description": "LangSmith-native autonomous agent optimization — evolves LLM agent code using multi-agent proposers, experiments, and git worktrees. No external API keys needed.",
+      "source": {
+        "source": "github",
+        "repo": "raphaelchristi/harness-evolver",
+        "ref": "v3.2.0"
+      }
+    }
+  ]
+}
